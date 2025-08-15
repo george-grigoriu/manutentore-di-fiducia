@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Il Manutentore Tuttofare a Casa Tua - trova professionisti affidabili per ogni esigenza domestica.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+  <title>Il Manutentore Tuttofare a Casa Tua</title>
+</head>
+<body>
+  <header>
+    <h1>Il Manutentore Tuttofare a Casa Tua</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Servizi Offerti</h2>
+      <ul>
+        <li>Riparazioni elettriche</li>
+        <li>Interventi idraulici</li>
+        <li>Pittura e decorazioni</li>
+        <li>Montaggio mobili</li>
+        <li>Altri servizi di manutenzione</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contattaci</h2>
+      <form action="https://formspree.io/f/mwkgnjkk" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="messaggio">Messaggio:</label>
+        <textarea id="messaggio" name="messaggio" rows="5" required></textarea>
+
+        <button type="submit">Invia</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
